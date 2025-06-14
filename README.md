@@ -20,7 +20,7 @@ src
 
 # App.jsx
 
-```
+```js
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
 import Home from '../src/pages/Home';
