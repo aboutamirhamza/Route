@@ -1,4 +1,3 @@
-# React Route
 # Install React Router
 ```js
 npm i react-router
