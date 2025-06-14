@@ -1,6 +1,6 @@
 # React Route
-
-```Install React Router
+# Install React Router
+```js
 npm i react-router
 ```
 
@@ -58,7 +58,7 @@ export default App
 ```
 
 # Layout.jsx
-```react
+```js
 import React from 'react'
 import Navbar from './Navbar'
 
@@ -74,7 +74,7 @@ function Layout({children}) {
 export default Layout
 ```
 # Navbar.jsx
-```
+```js
 import React from 'react'
 import { Link } from 'react-router'
 
@@ -100,7 +100,7 @@ function Navbar() {
 export default Navbar;
 ```
 # Home.jsx
-```
+```js
 import React from 'react'
 
 function Home() {
@@ -112,7 +112,7 @@ function Home() {
 export default Home
 ```
 # About.jsx
-```
+```js
 import React from 'react'
 import Navbar from '../components/Navbar'
 
@@ -125,7 +125,7 @@ function About() {
 export default About
 ```
 # Contact.jsx
-```
+```js
 import React from 'react'
 
 function Contact() {
@@ -137,7 +137,7 @@ function Contact() {
 export default Contact
 ```
 # Member.jsx
-```
+```js
 import React from 'react'
 
 function Member() {
@@ -149,7 +149,7 @@ function Member() {
 export default Member
 ```
 # MemberDetails.jsx
-```
+```js
 import React from 'react'
 import { useParams, useSearchParams } from 'react-router'
 
@@ -170,6 +170,6 @@ function MemberDetails() {
 export default MemberDetails
 ```
 # MemberDetails Link Copy Paste useParams() and useSearchParams()
-```
+```js
 http://localhost:5173/member/member-details/123456/AmirHamza?sortBy=name&sortDirection=asc
 ```
