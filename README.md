@@ -18,9 +18,9 @@ src
           --MemberDetails.jsx
 
 
+#App.jsx
 
-```App.jsx
-
+```
 import { BrowserRouter, Route, Routes } from 'react-router'
 import './App.css'
 import Home from '../src/pages/Home';
@@ -57,7 +57,8 @@ export default App
 
 ```
 
-```Layout.jsx
+#Layout.jsx
+```
 import React from 'react'
 import Navbar from './Navbar'
 
@@ -72,8 +73,8 @@ function Layout({children}) {
 
 export default Layout
 ```
-
-```Navbar.jsx
+#Navbar.jsx
+```
 import React from 'react'
 import { Link } from 'react-router'
 
@@ -98,8 +99,8 @@ function Navbar() {
 
 export default Navbar;
 ```
-
-```Home.jsx
+#Home.jsx
+```
 import React from 'react'
 
 function Home() {
@@ -110,8 +111,8 @@ function Home() {
 
 export default Home
 ```
-
-```About.jsx
+#About.jsx
+```
 import React from 'react'
 import Navbar from '../components/Navbar'
 
@@ -123,8 +124,8 @@ function About() {
 
 export default About
 ```
-
-```Contact.jsx
+#Contact.jsx
+```
 import React from 'react'
 
 function Contact() {
@@ -135,8 +136,8 @@ function Contact() {
 
 export default Contact
 ```
-
-```Member.jsx
+#Member.jsx
+```
 import React from 'react'
 
 function Member() {
@@ -147,8 +148,8 @@ function Member() {
 
 export default Member
 ```
-
-```MemberDetails.jsx
+#MemberDetails.jsx
+```
 import React from 'react'
 import { useParams, useSearchParams } from 'react-router'
 
@@ -168,7 +169,7 @@ function MemberDetails() {
 
 export default MemberDetails
 ```
-
-```MemberDetails Link Copy Paste useParams() and useSearchParams()
+#MemberDetails Link Copy Paste useParams() and useSearchParams()
+```
 http://localhost:5173/member/member-details/123456/AmirHamza?sortBy=name&sortDirection=asc
 ```
