@@ -111,7 +111,7 @@ function Home() {
 
 export default Home
 ```
-#About.jsx
+# About.jsx
 ```
 import React from 'react'
 import Navbar from '../components/Navbar'
