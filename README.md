@@ -58,7 +58,7 @@ export default App
 ```
 
 # Layout.jsx
-```php
+```dart
 import React from 'react'
 import Navbar from './Navbar'
 
